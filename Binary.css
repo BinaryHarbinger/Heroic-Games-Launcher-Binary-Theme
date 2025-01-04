@@ -1,0 +1,55 @@
+body {
+  --text-default: #b4befe;
+  --text-secondary: rgba(180, 190, 254, 0.676);
+  --background: #11111b;
+  --text-tertiary: var(--neutral-01);
+  --tertiary-button: var(--status-warning);
+  --tertiary-button-overlay: var(--status-warning-hover);
+  --cancel-button: var(--status-warning);
+  --cancel-button-overlay: var(--status-warning-hover);
+  --background-darker-80: var(--eighty-percent-black);
+
+  --anticheat-denied: var(--status-danger);
+  --anticheat-broken: var(--status-warning);
+  --anticheat-running: var(--status-default);
+  --anticheat-supported: var(--status-success);
+  --anticheat-planned: var(--status-info);
+  --anticheat-unknown: var(--status-denied);
+}
+
+* {
+  --accent: #b4befe;
+  --accent-overlay: #b4befe;
+  --navbar-accent: #b4befe;
+  --background: #11111b;
+  --body-background: #11111b;
+  --background-darker: #11111b;
+  --current-background: var(--body-background);
+  --navbar-background: #2c2c43;
+  --navbar-active-background: #747ba5;
+  --gradient-body-background: linear-gradient(
+      90deg, var(--background-darker) -32px,
+      var(--body-background) 64px,
+      var(--body-background) 100%
+  );
+  --input-background: #33334b;
+  --modal-background: var(--body-background);
+  --modal-border: var(--body-background);
+  --success: rgb(0, 128, 107);
+  --success-hover: rgb(0, 186, 155);
+  --primary: #458588;
+  --primary-hover: #83a598;
+  --danger: #cc241d;
+  --danger-hover: #fb4934;
+  --anticheat-denied: #9d0006;
+  --anticheat-broken: #af3a03;
+  --anticheat-running: #076678;
+  --anticheat-supported: #79740e;
+  --anticheat-planned: #8f3f71;
+  --text-title: #f9f5d7;
+  --icons-background: #4a4f6e;
+  --action-icon: #f9f5d7;
+  --action-icon-hover: #b16286;
+  --action-icon-active: #8ec07c;
+  --icon-disabled: #928374;
+}
